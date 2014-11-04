@@ -3,5 +3,9 @@
 #
 # Examples:
 #
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+location = Location.create(name: 'Miguel')
+location = Location.create(city: 'Torrejon')
+location = Location.create(street: 'Estajo')
+location = Location.create(zip: '28850')
+location = Location.create(country: 'Spain')
+

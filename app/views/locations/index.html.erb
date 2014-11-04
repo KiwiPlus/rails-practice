@@ -1,0 +1,11 @@
+<h2>Locations</h2>
+
+
+<% @locations.each do |x|%>
+		<% if x.name == '-' %>
+		k
+		<% else %>
+	<p>  <%= x.name %>  <%= x.city %> </p>
+
+	<% end %>
+<% end %>
